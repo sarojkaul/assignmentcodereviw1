@@ -1,0 +1,134 @@
+﻿
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    padding: 20px;
+}
+.headerContainer {
+    background-color: #702020;
+     
+}
+.topnav {
+    background-color: black;
+   
+}
+    .topnav ul {
+        list-style: none;
+        padding-right: 40px;
+        display: flex;
+        justify-content: flex-start;
+  
+    }
+
+    .topnav li {
+        display: inline;
+        padding: 20px;    
+    }
+
+     .topnav li a {
+            text-decoration: none;
+            color: white;
+            font-size: xx-large;
+        }
+     .date p
+     {
+        display:flex;
+        justify-content:flex-end;
+        color:gray;
+        padding-right: 20px;
+        margin-right:10px;
+     }
+
+.row {
+    display: flex;
+   
+}
+
+.imageWithText {
+    position: relative;
+    height: 100%;
+    margin: 0 10px;
+}
+
+    .imageWithText:first-child {
+        margin-left: 0;
+    }
+
+    .imageWithText:last-child {
+        margin-right: 0;
+    }
+
+    .imageWithText img {
+        width: 100%;
+    }
+
+.caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4px;
+    padding: 4px;
+    background-color: #333;
+    color: white;
+    height: 30px;
+}
+
+.articlesTitle {
+    padding: 24px;
+    margin: 16px 0;
+    background-color: #efefef;
+}
+
+.container {
+    width: 100%;
+}
+
+section.articles {
+    width: 85%;
+    margin: 0 auto;
+}
+main {
+    width: 75%;
+    display: grid;
+    margin-left:auto;
+    grid-template-rows: auto auto auto;/*because we want three rows*/
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+.image{
+    grid-column: 1/-1;
+    width: 100%;
+}
+.footer {
+    height: 300px;
+    background-color: black;
+    }
+.footerImage{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:30px;
+}
+h3
+{
+    
+    color:white;
+    text-align:center;
+    font-size:xx-large;
+    
+}
+.main.column.imagecf{
+    height:100%;
+    width:100%;
+}
+
